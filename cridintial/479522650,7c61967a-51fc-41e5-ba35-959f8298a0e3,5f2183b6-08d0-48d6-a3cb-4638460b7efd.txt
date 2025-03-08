@@ -1,0 +1,13 @@
+Company Name: عتمان للانشاء والتعمير
+Company Name (AR): عتمان للانشاء والتعمير
+Registration Number: 479522650
+Registration Date: 2/9/2014
+Closure Date: 
+Primary Branch Address: 603    الترجس - امام مسجد فاطمه الشربتلى - التجمع الخامس القاهره , New Cairo 1 , Cairo , Egypt
+Channel: Email
+Subscriptions: Document Received, Document Validated, Document Cancelled, Document Rejected
+Notification E-mail: etmanforbuilding@gmail.com
+Notification Mobile: +201157681366
+Client ID: 7c61967a-51fc-41e5-ba35-959f8298a0e3
+Client Secret 1: 5f2183b6-08d0-48d6-a3cb-4638460b7efd
+Client Secret 2: 30324adb-874d-402e-a557-e3a644522977
