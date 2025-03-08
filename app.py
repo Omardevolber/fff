@@ -28,8 +28,15 @@ def run_selenium_script(email, password):
         "safebrowsing.enabled": True
     }
     chrome_options.add_experimental_option("prefs", prefs)
-    # تشغيل المتصفح بدون واجهة رسومية؛ يمكنك إزالة هذا السطر لرؤية المتصفح أثناء التنفيذ
+    
+    # تشغيل المتصفح بدون واجهة رسومية مع إضافة خيارات إضافية لبيئة replit
     chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")
+    
+    # تحديد موقع Chromium في replit
+    chrome_options.binary_location = "/usr/bin/chromium-browser"
 
     # استخدام Service مع webdriver-manager لتحديد chromedriver
     service = Service(ChromeDriverManager().install())
